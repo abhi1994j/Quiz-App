@@ -21,7 +21,7 @@ const Quiz = () => {
       console.log(`Fetch is not successful ${err}`);
     }
   }
-console.log()
+
   useEffect(() => {
     if (questiondata.length > 0 && index < questiondata.length) {
       setQuestion(questiondata[index]);
@@ -47,7 +47,7 @@ console.log()
 
   useEffect(() => {
     getQuizQuestions();
-  }, [index]);
+  }, []);
 
   function handleColorChange(e , ele){
      console.log(e.target , ele)
