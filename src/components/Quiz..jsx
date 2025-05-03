@@ -69,7 +69,7 @@ console.log()
           <div className="mb-8 quiz-container">
           
               <div>
-                <h2 className="question text-xl font-semibold text-navy-900 mb-4">
+                <h2 className="question break-words text-lg md:text-xl font-semibold text-navy-900 mb-4">
                   {index + 1}. {question.question}
                 </h2>
                 <div className="space-y-4">
