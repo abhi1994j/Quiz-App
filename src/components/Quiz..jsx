@@ -5,7 +5,6 @@ import { useState } from "react";
 const Quiz = () => {
 
   let [index, setIndex] = useState(0);
-  const [flag , setFlag] =useState(false)
   const [questiondata, setQuestiondata] = useState([]);
   const [question , setQuestion] = useState({})
   const [option, setOption] = useState([]);
